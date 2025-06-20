@@ -1,0 +1,158 @@
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  min-height: 180px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.forma-container {
+  text-align: center;
+}
+
+.forma-label {
+  font-weight: bold;
+  color: #0d47a1;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.forma {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  padding: 6px;
+}
+
+.triangulo-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid #1976d2;
+  position: relative;
+}
+
+.quadrado,
+.circulo,
+.retangulo {
+  background-color: #1976d2;
+}
+
+.quadrado {
+  width: 120px;
+  height: 120px;
+}
+
+.circulo {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.trapezio {
+  width: 120px;
+  height: 0;
+  border-bottom: 70px solid #1976d2;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  position: relative;
+}
+
+.retangulo {
+  width: 150px;
+  height: 80px;
+}
+
+.formulario {
+  flex: 1;
+  min-width: 250px;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+.formula {
+  font-style: italic;
+  font-size: 14px;
+  color: #1565c0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+.resultado {
+  margin-top: 6px;
+  font-weight: bold;
+  color: #0d47a1;
+}
